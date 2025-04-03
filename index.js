@@ -20,8 +20,9 @@ app.use(cors({
     // Define allowed origins
     const allowedOrigins = [
       'http://localhost:3000',                   // Local development
-      'https://your-frontend.vercel.app',        // Production default
-      'prasad1-f-mrajay1021s-projects.vercel.app' // Your Vercel deployment
+      'https://your-frontend.vercel.app',
+      'https://event-meeting-frontend-4qau.vercel.app',        // Production default
+      'https://prasad1-f-mrajay1021s-projects.vercel.app' // Your Vercel deployment
     ];
     
     // Add any origin from environment variable if present
